@@ -1,11 +1,18 @@
 {
-    "version":"1.0.0",
+    "version": "1.0.0",
     "name": "maninderjeet-devout/inspire",
     "description": "My first Package",
+    "autoload": {
+        "psr-4": {
+            "ManinderjeetDevout\\Inspire\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Maninderjeet Singh"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
 }
