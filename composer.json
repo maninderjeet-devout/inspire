@@ -1,0 +1,10 @@
+{
+    "name": "maninderjeet-devout/inspire",
+    "description": "My first Package",
+    "authors": [
+        {
+            "name": "Maninderjeet Singh"
+        }
+    ],
+    "require": {}
+}
